@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FireFold Pizza - Contact</title>
+
+<!-- Bootstrap 5.1.3 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="./css/FireFold Pizza contactStyle.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg ff-navbar">
+    <div class="container-fluid ff-container">
+      <a class="navbar-brand ff-logo" href="#">
+         <img src="./Pizza Image/pizza_74x63.png" class="card-img-top" alt="">
+        FireFold <span>Pizza</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ffNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="ffNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="./FireFoldPizzaHome.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./FireFold Pizza Menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="./FireFold pizzaAbout.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./FireFold pizzaContact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a href="./FireFold pizzaContact.html" class="btn btn-ff-red">Order Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE TITLE ===== -->
+  <section class="ff-page-title">
+    <div class="container-fluid ff-container text-center">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Reach out for reservations, catering, or just to say hello!</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="ff-contact-section">
+    <div class="container-fluid ff-container">
+      <div class="row gy-5">
+
+        <!-- ===== Get In Touch ===== -->
+        <div class="col-lg-6">
+          <h2 class="ff-section-title">Get In Touch</h2>
+
+          <div class="ff-info-item d-flex">
+            <span class="ff-info-icon"><i class="bi bi-geo-alt-fill"></i></span>
+            <div>
+              <h6>Address</h6>
+              <p>123 Pizza Street<br>New York, NY 10001</p>
+            </div>
+          </div>
+
+          <div class="ff-info-item d-flex">
+            <span class="ff-info-icon"><i class="bi bi-telephone-fill"></i></span>
+            <div>
+              <h6>Phone</h6>
+              <p>(555) 123-4567<br>Call for reservations or takeout</p>
+            </div>
+          </div>
+
+          <div class="ff-info-item d-flex">
+            <span class="ff-info-icon"><i class="bi bi-envelope-fill"></i></span>
+            <div>
+              <h6>Email</h6>
+              <p>vartakparas9@gmail.com<br>We'll respond within 24 hours</p>
+            </div>
+          </div>
+
+          <div class="ff-info-item d-flex">
+            <span class="ff-info-icon"><i class="bi bi-clock-fill"></i></span>
+            <div>
+              <h6>Hours</h6>
+              <p>
+                Monday – Thursday: 11:00 AM – 10:00 PM<br>
+                Friday – Saturday: 11:00 AM – 11:00 PM<br>
+                Sunday: 12:00 PM – 9:00 PM
+              </p>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="ff-map-wrap">
+            <img src="./Pizza Image/location.png" class="img-fluid" alt="Map Location">
+            <div class="ff-map-label">Map Location</div>
+          </div>
+        </div>
+
+        <!-- ===== Send Message Form ===== -->
+        <div class="col-lg-6">
+          <h2 class="ff-section-title">Send Us a Message</h2>
+
+          <form class="ff-contact-form">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Your name">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="your.email@example.com">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone</label>
+              <input type="tel" class="form-control" placeholder="(555) 123-4567">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="5" placeholder="How can we help you?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-ff-red w-100">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORDER ONLINE CTA ===== -->
+  <section class="ff-order-cta" id="order">
+    <div class="container-fluid ff-container text-center">
+      <h2>Order Online</h2>
+      <p>Skip the wait! Order your favorite pizzas online for pickup or delivery.</p>
+      <a href="./FireFold pizzaContact.html" class="btn btn-ff-white">Start Your Order</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="ff-footer" id="contact">
+
+    <!-- Top bar : logo + subscription form -->
+    <div class="ff-footer-topbar">
+      <div class="container-fluid ff-container">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+
+          <div class="d-flex align-items-center ff-footer-brand">
+            <a href="#" class="ff-footer-logo">
+              <span class="ff-script">FireFold</span>
+              <span class="ff-pizza-word">Pizza</span>
+            </a>
+            <span class="ff-vert-divider"></span>
+            <h5 class="ff-sub-heading mb-0">Subscription News</h5>
+          </div>
+
+          <form class="d-flex ff-subscribe-form-pill">
+            <input type="email" class="form-control" placeholder="Enter Your Email Address" required>
+            <button type="submit" class="btn btn-ff-red">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle section : links & info -->
+    <div class="ff-footer-middle">
+      <div class="container-fluid ff-container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6">
+            <p class="ff-footer-text">Authentic Italian pizza made with love and the finest ingredients since 1985.</p>
+            <h6 class="ff-footer-title mt-4">Book a table</h6>
+            <a href="./FireFold pizzaAbout.html" class="ff-link-red">The Pizza Story</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h6 class="ff-footer-title">Quik Links</h6>
+            <ul class="list-unstyled ff-footer-links">
+              <li><a href="./FireFoldPizzaHome.html">Home</a></li>
+              <li><a href="./FireFold Pizza Menu.html">Menu</a></li>
+              <li><a href="./FireFold pizzaAbout.html">About</a></li>
+              <li><a href="./FireFold pizzaContact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h6 class="ff-footer-title">Get In Touch</h6>
+            <ul class="list-unstyled ff-footer-contact">
+              <li>
+                <span class="ff-icon-circle"><i class="bi bi-geo-alt-fill"></i></span>
+                <span>123 Pizza Street<br>New York, NY 1000</span>
+              </li>
+              <li>
+                <span class="ff-icon-circle"><i class="bi bi-telephone-fill"></i></span>
+                <span>(555) 123-4567</span>
+              </li>
+              <li>
+                <span class="ff-icon-circle"><i class="bi bi-envelope-fill"></i></span>
+                <span>vartakparas9@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom bar : copyright -->
+    <div class="ff-footer-bottombar">
+      <div class="container-fluid ff-container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <p class="mb-0">Copyright 2026 Pizza. All Right Reserved Ejobindia by Student (Sunisha Roy)</p>
+          <a href="#" class="ff-privacy-link">Privacy policy/Terms & Use</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</div>
+
+<!-- Bootstrap 5.1.3 JS Bundle -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
